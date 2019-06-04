@@ -1,0 +1,12 @@
+src/*/project/output/
+src/*/project/sram_output/
+src/pc/tcl_project/Debug/
+src/pc/tcl_project/Release/
+src/pc/test_project/Debug/
+src/pc/test_project/Release/
+src/pc/test_project/*.sdf
+src/pc/test_project/ipch/
+
+*.suo
+.DS_Store
+JLinkLog.txt
