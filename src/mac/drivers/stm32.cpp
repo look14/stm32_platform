@@ -14,6 +14,8 @@ const u8 g_APP_Flag[] = { 0x33, 0xCC, 0x55, 0xAA, 0x00, 0xFF, 0x11, 0xEE, 'l', '
 Stm32::Stm32()
 {
 	m_fUpgradeProgress = 0;
+    
+    ServerConfig_Init(DEF_SYSTEM_SETTINGS_ADDR, Stm32::ServerConfig_ReadFlash, Stm32::ServerConfig_WriteFlash);
 }
 
 Stm32::~Stm32()

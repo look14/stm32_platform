@@ -121,4 +121,7 @@ DEL .\pc\test_project\Release\*.cache
 RMDIR /s/q .\mac\test_project\Build
 RMDIR /s/q .\mac\test_project\DerivedData
 
+RMDIR /s/q .\mac\dylib_project\Build
+RMDIR /s/q .\mac\dylib_project\DerivedData
+
 ::PAUSE
